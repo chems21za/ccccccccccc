@@ -1,0 +1,26 @@
+ALGORITHM Phrase
+VAR
+    countLtr : INTEGER
+    countWrd : INTEGER 
+    a : STRING
+BEGIN
+Write("Donner"a)
+read(a)
+WHILE (i = ".") DO
+    FOR i FROM 0 TO array.length STEP 1  DO
+        IF (arr [i] = " ") THEN
+            countLtr = countLtr
+            countWrd = countWrd + 1
+            
+        ELSE
+            countLtr = countLtr + 1
+        END_IF
+        
+
+    END_FOR
+END_WHILE
+Write("Le nombre de lettre est :" countLtr "
+et le nombre de mots est :" countWrd  )
+
+
+END
